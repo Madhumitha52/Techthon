@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/home_menu"
+            android:icon="@drawable/profile_picture"
+            android:title="User Information"/>
+
+        <item android:id="@+id/Budget_Settings_menu"
+            android:icon="@drawable/attach_money"
+            android:title=" Budget Settings"/>
+
+        <item android:id="@+id/Notifications_menu"
+            android:icon="@drawable/notifications_icon"
+            android:title="  Notifications"/>
+
+        <item android:id="@+id/Currency_menu"
+            android:icon="@drawable/currency_icon"
+            android:title="  Currency"/>
+
+        <item android:id="@+id/About_menu"
+            android:icon="@drawable/chat_icon"
+            android:title="  About"/>
+
+        <item android:id="@+id/help_menu"
+            android:icon="@drawable/help_icon"
+            android:title="   Help"/>
+
+        <item android:id="@+id/Invite_a_Friend_menu"
+            android:icon="@drawable/mobile_icon"
+            android:title="  Invite a Friend"/>
+
+    </group>
+
+</menu>
